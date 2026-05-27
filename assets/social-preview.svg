@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="50%" style="stop-color:#0f0f28"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d061"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6d28d9"/>
+      <stop offset="50%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#6d28d9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#a78bfa" stroke-width="0.5" opacity="0.03">
+    <line x1="0" y1="160" x2="1280" y2="160"/><line x1="0" y1="320" x2="1280" y2="320"/>
+    <line x1="0" y1="480" x2="1280" y2="480"/><line x1="320" y1="0" x2="320" y2="640"/>
+    <line x1="640" y1="0" x2="640" y2="640"/><line x1="960" y1="0" x2="960" y2="640"/>
+  </g>
+
+  <!-- Glow accents -->
+  <circle cx="400" cy="300" r="250" fill="#a78bfa" opacity="0.04" filter="url(#softGlow)"/>
+  <circle cx="900" cy="350" r="200" fill="#f5d061" opacity="0.03" filter="url(#softGlow)"/>
+
+  <!-- Logo -->
+  <g transform="translate(340, 180) scale(1.4)">
+    <!-- Outer hexagon -->
+    <polygon points="100,18 169,58 169,138 100,178 31,138 31,58"
+             fill="none" stroke="url(#purple)" stroke-width="3" opacity="0.6"/>
+
+    <!-- Inner hexagon -->
+    <polygon points="100,35 155,68 155,128 100,161 45,128 45,68"
+             fill="none" stroke="url(#gold)" stroke-width="1.5" opacity="0.3"/>
+
+    <!-- Owl eyes -->
+    <g filter="url(#glow)">
+      <circle cx="75" cy="80" r="16" fill="#0f0f23" stroke="url(#gold)" stroke-width="2"/>
+      <circle cx="75" cy="80" r="8" fill="url(#gold)" opacity="0.9"/>
+      <circle cx="72" cy="77" r="3" fill="#ffffff" opacity="0.5"/>
+
+      <circle cx="125" cy="80" r="16" fill="#0f0f23" stroke="url(#purple)" stroke-width="2"/>
+      <circle cx="125" cy="80" r="8" fill="url(#purple)" opacity="0.9"/>
+      <circle cx="122" cy="77" r="3" fill="#ffffff" opacity="0.5"/>
+    </g>
+
+    <polygon points="100,102 92,118 108,118" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.8"/>
+    <path d="M60,66 Q100,55 140,66" fill="none" stroke="url(#purple)" stroke-width="1.5" opacity="0.4"/>
+
+    <g filter="url(#glow)">
+      <circle cx="100" cy="22" r="3" fill="url(#purple)"/>
+      <circle cx="100" cy="172" r="3" fill="url(#gold)"/>
+      <circle cx="55" cy="45" r="3" fill="url(#purple)"/>
+      <circle cx="145" cy="45" r="3" fill="url(#gold)"/>
+      <circle cx="50" cy="145" r="3" fill="url(#gold)"/>
+      <circle cx="150" cy="145" r="3" fill="url(#purple)"/>
+    </g>
+  </g>
+
+  <!-- KLEOS text -->
+  <text x="640" y="340" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="90" font-weight="700"
+        fill="url(#gold)" filter="url(#glow)" letter-spacing="18">KLEOS</text>
+
+  <text x="640" y="410" text-anchor="middle" font-family="'DM Mono', monospace" font-size="24"
+        fill="#a78bfa" opacity="0.85" letter-spacing="10">AI NFT AGENT FOR BANKR</text>
+
+  <text x="640" y="465" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="18"
+        fill="#c9a84c" opacity="0.55" font-style="italic">κλέος — glory through the hunt</text>
+
+  <!-- Pill badges -->
+  <g transform="translate(640, 510)" text-anchor="middle">
+    <rect x="-280" y="0" width="100" height="32" rx="16" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+    <text y="22" x="-230" font-family="'DM Mono', monospace" font-size="12" fill="#c9a84c" opacity="0.8">SWEEP</text>
+
+    <rect x="-160" y="0" width="90" height="32" rx="16" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
+    <text y="22" x="-115" font-family="'DM Mono', monospace" font-size="12" fill="#a78bfa" opacity="0.8">SNIPE</text>
+
+    <rect x="-50" y="0" width="90" height="32" rx="16" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+    <text y="22" x="-5" font-family="'DM Mono', monospace" font-size="12" fill="#c9a84c" opacity="0.8">TRACK</text>
+
+    <rect x="60" y="0" width="90" height="32" rx="16" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
+    <text y="22" x="105" font-family="'DM Mono', monospace" font-size="12" fill="#a78bfa" opacity="0.8">CLAIM</text>
+
+    <rect x="170" y="0" width="110" height="32" rx="16" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+    <text y="22" x="225" font-family="'DM Mono', monospace" font-size="12" fill="#c9a84c" opacity="0.8">PROFIT</text>
+  </g>
+
+  <!-- Bottom accent -->
+  <line x1="200" y1="590" x2="1080" y2="590" stroke="url(#gold)" stroke-width="1" opacity="0.12"/>
+
+  <!-- URL -->
+  <text x="640" y="620" text-anchor="middle" font-family="'DM Mono', monospace" font-size="13"
+        fill="#a78bfa" opacity="0.35" letter-spacing="4">GITHUB.COM/LUBITZY/KLEOS</text>
+</svg>

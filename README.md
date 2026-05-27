@@ -4,6 +4,13 @@
   <img src="assets/banner.svg" alt="Kleos — AI NFT Agent for Bankr" width="100%">
 </p>
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://bankr.bot"><img src="https://img.shields.io/badge/platform-Bankr-a78bfa.svg" alt="Platform: Bankr"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-1.0.0-f5d061.svg" alt="Version: 1.0.0"></a>
+  <a href="https://docs.bankr.bot/skills/overview"><img src="https://img.shields.io/badge/SKILL.md-compatible-7c3aed.svg" alt="SKILL.md compatible"></a>
+</p>
+
 > *κλέος* — the Greek concept of eternal glory earned through heroic deeds.  
 > **Kleos hunts NFT glory** — sweeping floors, sniping mints, managing portfolios, and claiming airdrops.
 
@@ -40,6 +47,16 @@ install the skill at https://github.com/Lubitzy/kleos/tree/main
 ```
 
 **That's it.** Kleos activates automatically whenever you talk about NFTs.
+
+### ✅ Verify Installation
+
+Test that Kleos is working with these quick commands:
+
+```
+"kleos, show my NFTs"
+"what's minting today?"
+"check if I hold any Pudgy Penguins"
+```
 
 ---
 
@@ -127,7 +144,8 @@ kleos/
 ├── assets/
 │   ├── banner.svg              # Repo banner
 │   ├── logo.svg                # Kleos logo (owl + hexagon)
-│   └── mascot.svg              # Geometric owl character
+│   ├── mascot.svg              # Geometric owl character
+│   └── social-preview.svg      # Social link preview image
 ├── references/                 # Detailed workflow docs (loaded on demand)
 │   ├── floor-sweeper.md        # Floor sweeping strategies
 │   ├── mint-sniper.md          # Mint sniping workflows
@@ -138,8 +156,13 @@ kleos/
 │   ├── sniper.md
 │   ├── portfolio.md
 │   └── airdrop.md
-├── LICENSE                     # MIT
-└── CONTRIBUTING.md             # Contribution guide
+├── .github/                     # Issue templates
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       └── feature_request.md
+├── CHANGELOG.md                 # Version history
+├── CONTRIBUTING.md              # Contribution guide
+└── LICENSE                      # MIT
 ```
 
 ---
