@@ -1,7 +1,7 @@
 # Kleos — NFT Agent for Bankr
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Kleos — AI NFT Agent for Bankr" width="100%">
+  <img src="assets/Banner.png" alt="Kleos — AI NFT Agent for Bankr" width="100%">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 Kleos is a [Bankr](https://bankr.bot) skill that transforms your AI agent into a full-stack NFT trading machine. It works on Telegram, X (Twitter), and the Bankr web terminal — all through natural language.
 
 <p align="center">
-  <img src="assets/mascot.svg" alt="Kleos Mascot" width="160">
+  <img src="assets/Mascot.png" alt="Kleos Mascot" width="160">
   <br>
   <em>A geometric owl — the all-seeing AI agent. Golden left eye tracks profit, purple right eye computes strategy. Hexagonal body represents the decentralized network it scans.</em>
 </p>
@@ -142,10 +142,9 @@ NFT operations are available on: **Base**, **Ethereum**, **Polygon**, **Unichain
 kleos/
 ├── SKILL.md                    # Core skill instructions
 ├── assets/
-│   ├── banner.svg              # Repo banner
-│   ├── logo.svg                # Kleos logo (owl + hexagon)
-│   ├── mascot.svg              # Geometric owl character
-│   └── social-preview.svg      # Social link preview image
+│   ├── Banner.png              # Repo banner
+│   ├── Logo.png                # Kleos logo (owl + hexagon)
+│   └── Mascot.png              # Geometric owl character
 ├── references/                 # Detailed workflow docs (loaded on demand)
 │   ├── floor-sweeper.md        # Floor sweeping strategies
 │   ├── mint-sniper.md          # Mint sniping workflows
