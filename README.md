@@ -12,7 +12,7 @@ Kleos is a [Bankr](https://bankr.bot) skill that transforms your AI agent into a
 <p align="center">
   <img src="assets/mascot.svg" alt="Kleos Mascot" width="160">
   <br>
-  <em>A Greek warrior with one golden eye (profit) and one purple eye (strategy), scanning the blockchain for NFT glory.</em>
+  <em>A geometric owl — the all-seeing AI agent. Golden left eye tracks profit, purple right eye computes strategy. Hexagonal body represents the decentralized network it scans.</em>
 </p>
 
 ---
@@ -125,7 +125,9 @@ NFT operations are available on: **Base**, **Ethereum**, **Polygon**, **Unichain
 kleos/
 ├── SKILL.md                    # Core skill instructions
 ├── assets/
-│   └── banner.svg              # Repo banner
+│   ├── banner.svg              # Repo banner
+│   ├── logo.svg                # Kleos logo (owl + hexagon)
+│   └── mascot.svg              # Geometric owl character
 ├── references/                 # Detailed workflow docs (loaded on demand)
 │   ├── floor-sweeper.md        # Floor sweeping strategies
 │   ├── mint-sniper.md          # Mint sniping workflows
